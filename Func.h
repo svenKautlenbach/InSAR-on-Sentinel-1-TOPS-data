@@ -1,7 +1,7 @@
 #ifndef FUNC_H
 #define FUNC_H
 #include "DataTypes.h"
-#include "io.h"
+//#include "io.h"
 #include "tinyxml2.h"
 #include "Constants.h"
 #include "cuComplex.h"

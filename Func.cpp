@@ -2811,7 +2811,7 @@ bool CheckDir(string Dir)
 	if (0 != access(Dir.c_str(), 0))
 	{
 		// if this folder not exist, create a new one.
-		if (mkdir(Dir.c_str()) != 0)return false;
+		if (mkdir(Dir.c_str(), 666) != 0)return false;
 		//换成 ::_mkdir  ::_access 也行，不知道什么意思
 	}
 
